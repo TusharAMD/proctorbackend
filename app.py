@@ -114,7 +114,7 @@ def video():
         print("awake....")
         ### Operations on video ###
         mp_drawing = mp.solutions.drawing_utils
-        mp_drawing_styles = mp.solutions.drawing_styles
+        #mp_drawing_styles = mp.solutions.drawing_styles
         mp_face_mesh = mp.solutions.face_mesh
         mp_face_detection = mp.solutions.face_detection # Face Track
         drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
@@ -299,7 +299,7 @@ def submittest():
 
 if __name__ == '__main__':
    mp_drawing = mp.solutions.drawing_utils
-   mp_drawing_styles = mp.solutions.drawing_styles
+   #mp_drawing_styles = mp.solutions.drawing_styles
    mp_face_mesh = mp.solutions.face_mesh
    mp_face_detection = mp.solutions.face_detection # Face Track
    drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
