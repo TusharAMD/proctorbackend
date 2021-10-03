@@ -2,7 +2,7 @@ Flask==1.1.2
 mediapipe==0.8.3.1
 shortuuid==1.0.1
 requests==2.25.0
-opencv_python==4.5.3.56
+opencv-python-headless==4.2.0.32
 pymongo==3.12.0
 qrcode==7.3.1
 gunicorn==20.1.0
